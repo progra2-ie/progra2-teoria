@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26c905f0-86e1-4f0b-828d-eed529aaeb16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema1/cuenta/Cuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema1/cursos/Carrera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema1/cursos/Curso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema1/paco/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema1/paco/Vehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cr/ac/ucr/paraiso/ie/progra2/paco/PersonaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cr/ac/ucr/paraiso/ie/progra2/tema1/CuentaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cr/ac/ucr/paraiso/ie/progra2/tema1/cursos/CarreraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cr/ac/ucr/paraiso/ie/progra2/tema1/paco/PersonaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cr/ac/ucr/paraiso/ie/progra2/tema1/paco/PersonaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +46,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cr.ac.ucr.paraiso.ie.progra2.tema1.cuenta" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="CuentaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="progra2-teoria" />
