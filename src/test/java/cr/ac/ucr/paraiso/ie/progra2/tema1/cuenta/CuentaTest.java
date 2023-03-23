@@ -1,4 +1,4 @@
-package cr.ac.ucr.paraiso.ie.progra2.tema1;
+package cr.ac.ucr.paraiso.ie.progra2.tema1.cuenta;
 
 import cr.ac.ucr.paraiso.ie.progra2.tema1.cuenta.Cuenta;
 import org.junit.jupiter.api.Test;

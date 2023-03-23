@@ -67,8 +67,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cr.ac.ucr.paraiso.ie.progra2.tema1" />
-      <option name="MAIN_CLASS_NAME" value="cr.ac.ucr.paraiso.ie.progra2.tema1.CuentaTest" />
+      <option name="PACKAGE_NAME" value="cr.ac.ucr.paraiso.ie.progra2.tema1.cuenta" />
+      <option name="MAIN_CLASS_NAME" value="cr.ac.ucr.paraiso.ie.progra2.tema1.cuenta.CuentaTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
