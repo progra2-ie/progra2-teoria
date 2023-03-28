@@ -1,4 +1,4 @@
-package cr.ac.ucr.paraiso.ie.progra2.tema1.cuenta;
+package cr.ac.ucr.paraiso.ie.progra2.tema1.poo.cuenta;
 
 public class Cuenta {
     private String numeroCuenta;

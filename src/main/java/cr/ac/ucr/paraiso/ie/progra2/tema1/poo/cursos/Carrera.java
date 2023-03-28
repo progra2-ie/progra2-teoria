@@ -1,7 +1,6 @@
-package cr.ac.ucr.paraiso.ie.progra2.tema1.cursos;
+package cr.ac.ucr.paraiso.ie.progra2.tema1.poo.cursos;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class Carrera {

@@ -1,4 +1,4 @@
-package cr.ac.ucr.paraiso.ie.progra2.tema1.cursos;
+package cr.ac.ucr.paraiso.ie.progra2.tema1.poo.cursos;
 
 public class Curso {
     private String sigla;

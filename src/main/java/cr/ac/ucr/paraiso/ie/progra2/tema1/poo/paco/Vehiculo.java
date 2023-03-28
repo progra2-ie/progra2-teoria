@@ -1,4 +1,4 @@
-package cr.ac.ucr.paraiso.ie.progra2.tema1.paco;
+package cr.ac.ucr.paraiso.ie.progra2.tema1.poo.paco;
 
 public class Vehiculo {
     private String marca;
