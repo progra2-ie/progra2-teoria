@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26c905f0-86e1-4f0b-828d-eed529aaeb16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema4/archivos/data/EmpleadoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema4/archivos/data/EmpleadoExistenteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema4/archivos/domain/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cr/ac/ucr/paraiso/ie/progra2/tema4/archivos/EmpleadoDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema9/sockets/cliente/EchoCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema9/sockets/servidor/common/KnockKnockProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema9/sockets/servidor/multiclientes/KKMultiServidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema9/sockets/servidor/multiclientes/KKMultiServidorHilo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema9/sockets/servidor/simple/KnockKnockServidor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema1/cuenta/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema1/poo/cuenta/Cuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema1/cursos/Carrera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema1/poo/cursos/Carrera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema1/cursos/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema1/poo/cursos/Curso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema1/paco/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema1/poo/paco/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema1/paco/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema1/poo/paco/Vehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cr/ac/ucr/paraiso/ie/progra2/tema1/cuenta/CuentaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cr/ac/ucr/paraiso/ie/progra2/tema1/poo/cuenta/CuentaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cr/ac/ucr/paraiso/ie/progra2/tema1/cursos/CarreraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cr/ac/ucr/paraiso/ie/progra2/tema1/poo/cursos/CarreraTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cr/ac/ucr/paraiso/ie/progra2/tema1/paco/PersonaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cr/ac/ucr/paraiso/ie/progra2/tema1/poo/paco/PersonaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema4/archivos/data/EmpleadoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/ac/ucr/paraiso/ie/progra2/tema4/archivos/data/EmpleadoDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +56,46 @@
       <recent name="cr.ac.ucr.paraiso.ie.progra2.tema1.cuenta" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmpleadoDaoTest">
+  <component name="RunManager" selected="Application.EchoCliente">
+    <configuration name="EchoCliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cr.ac.ucr.paraiso.ie.progra2.tema9.sockets.cliente.EchoCliente" />
+      <module name="progra2-teoria" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cr.ac.ucr.paraiso.ie.progra2.tema9.sockets.cliente.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KKMultiServidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cr.ac.ucr.paraiso.ie.progra2.tema9.sockets.servidor.multiclientes.KKMultiServidor" />
+      <module name="progra2-teoria" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cr.ac.ucr.paraiso.ie.progra2.tema9.sockets.servidor.multiclientes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnockKnockServidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cr.ac.ucr.paraiso.ie.progra2.tema9.sockets.servidor.simple.KnockKnockServidor" />
+      <module name="progra2-teoria" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cr.ac.ucr.paraiso.ie.progra2.tema9.sockets.servidor.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CuentaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="progra2-teoria" />
       <extension name="coverage">
@@ -95,6 +128,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EchoCliente" />
+        <item itemvalue="Application.KKMultiServidor" />
+        <item itemvalue="Application.KnockKnockServidor" />
         <item itemvalue="JUnit.EmpleadoDaoTest" />
         <item itemvalue="JUnit.CuentaTest" />
       </list>

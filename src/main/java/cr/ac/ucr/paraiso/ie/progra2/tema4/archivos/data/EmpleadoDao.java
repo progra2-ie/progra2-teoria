@@ -25,10 +25,10 @@ public class EmpleadoDao extends RandomAccessFile {
     }
 
 
-
     public boolean buscar(int idEmpleadoBuscado)
             throws IOException{
         boolean encontrado = false;
+        super.length();
         int totalRegistros = (int)(this.length()/TAMANO_REGISTRO);
         int numReg=0;
         while(numReg<totalRegistros && !encontrado){
