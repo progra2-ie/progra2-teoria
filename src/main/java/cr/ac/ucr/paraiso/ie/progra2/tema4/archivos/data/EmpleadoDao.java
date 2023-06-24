@@ -41,6 +41,44 @@ public class EmpleadoDao extends RandomAccessFile {
         }
         return encontrado;
     }//buscar
+
+    public boolean delete(int idEmpleadoBuscado)
+            throws IOException{
+        boolean encontrado = false;
+        int totalRegistros = (int)(this.length()/TAMANO_REGISTRO);
+        int numReg=0;
+        int regPorBorrar = -1;
+        while(numReg<totalRegistros && !encontrado){
+            this.seek(numReg * TAMANO_REGISTRO);
+            int idEmpleadoActual = this.readInt();
+            if(idEmpleadoBuscado == idEmpleadoActual) {
+                encontrado = !encontrado;
+                regPorBorrar = numReg;
+            }else numReg++;
+        }
+        if ((numReg<totalRegistros-1) && encontrado){ //estoy ubicado en el penúltimo registro
+
+            //SACAR LOS DATOS DEL REGISTRO?
+            int indice = regPorBorrar+1;
+            this.seek((indice)*TAMANO_REGISTRO);
+            while (indice<totalRegistros) {
+                Empleado empleado = new Empleado();
+                empleado.setIdEmpleado(this.readInt());
+                empleado.setNombre(this.readString(TAMANO_NOMBRE, this.getFilePointer()));
+                empleado.setApellidos(this.readString(TAMANO_APELLIDOS, this.getFilePointer()));
+                this.seek(indice-1 * TAMANO_REGISTRO);
+                this.writeInt(empleado.getIdEmpleado());
+                this.write(toBytes(empleado.getNombre(), TAMANO_NOMBRE));
+                this.write(toBytes(empleado.getApellidos(), TAMANO_APELLIDOS));
+                indice++;
+            }
+            this.setLength(this.length() - TAMANO_REGISTRO);
+
+        }else { //el registro por borrar es el último
+            this.setLength(this.length() - TAMANO_REGISTRO);
+        }
+        return encontrado;
+    }//buscar
     /*
      * Inserta un empleado en el archivo. El nuevo empleado no puede
      * tener una identificacion igual a uno que ya exista. Los registros

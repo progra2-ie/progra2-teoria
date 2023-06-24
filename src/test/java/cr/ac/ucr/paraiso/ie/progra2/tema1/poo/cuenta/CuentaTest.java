@@ -1,8 +1,12 @@
 package cr.ac.ucr.paraiso.ie.progra2.tema1.poo.cuenta;
 
+import com.google.gson.Gson;
 import org.junit.jupiter.api.Test;
 
 import javax.swing.*;
+import javax.swing.plaf.synth.SynthTextAreaUI;
+import java.io.File;
+import java.nio.file.Path;
 
 public class CuentaTest {
     @Test
@@ -19,6 +23,12 @@ public class CuentaTest {
          boolean resultado = cuenta1.equals(cuenta2);
          boolean valorEsperado = true;
          assert (resultado==valorEsperado);
+
+        Gson gson = new Gson();
+        String jsonGenerado = gson.toJson(cuenta1);
+        System.out.println(jsonGenerado);
+        Cuenta cuentaRecuperada = gson.fromJson(jsonGenerado, Cuenta.class);
+        System.out.println(cuentaRecuperada.toString());
     }
     @Test
     public void llamado_equals_no_funciona(){
@@ -27,5 +37,6 @@ public class CuentaTest {
         boolean resultado = cuenta1.equals(cuenta2);
         boolean valorEsperado = false;
         assert (resultado==valorEsperado);
+
     }
 }

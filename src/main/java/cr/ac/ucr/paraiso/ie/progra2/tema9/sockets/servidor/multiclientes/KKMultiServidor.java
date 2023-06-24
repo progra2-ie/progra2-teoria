@@ -12,11 +12,13 @@ public class KKMultiServidor {
         ServerSocket serverSocket = null; // Este socket espera por
         // una conexión entrante
         boolean escuchando = true;
+
         try {
             serverSocket = new ServerSocket(9999);
             System.out.println("Servidor activo");
             while(escuchando){
-                new KKMultiServidorHilo(serverSocket.accept()).start();
+               KKMultiServidorHilo hilo = new KKMultiServidorHilo(serverSocket.accept());
+               hilo.start();
             }
             serverSocket.close();
         } catch (IOException e) {
